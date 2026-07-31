@@ -133,8 +133,8 @@ public class ServerControl implements ApplicationListener{
     };
 
     public ServerControl(String[] args){
-        setup(args);
         instance = this;
+        setup(args);
     }
 
     protected void setup(String[] args){
